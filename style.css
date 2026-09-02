@@ -56,6 +56,12 @@ a:hover { text-decoration: underline; }
 .hero-logo { width: 64px; height: 64px; margin: 0 auto 28px; display: block; }
 .hero h1 { font-size: clamp(2rem, 6vw, 3.2rem); font-weight: 800; line-height: 1.15; margin-bottom: 18px; letter-spacing: -0.5px; }
 .hero-sub { color: var(--text2); font-size: clamp(1rem, 2.5vw, 1.2rem); max-width: 620px; margin: 0 auto 8px; }
+.hero-cta {
+    display: inline-block; margin-top: 28px; padding: 12px 28px;
+    background: var(--accent); color: var(--bg); font-weight: 700;
+    border-radius: var(--radius); font-size: 0.95rem;
+}
+.hero-cta:hover { text-decoration: none; opacity: 0.85; }
 
 /* Sections */
 .section { padding: 70px 20px; }
